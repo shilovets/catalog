@@ -342,3 +342,9 @@ main {
     background-color: #F44242;
 }
 /* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
