@@ -345,6 +345,6 @@ main {
 footer {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     align-content: flex-end;
+    height: 100px;
 }
