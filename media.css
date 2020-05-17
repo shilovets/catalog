@@ -14,4 +14,7 @@
     .nav {
         opacity: 0;
     }
+    .electronics, .computers, .appliances, .repairs, .house, .auto {
+        padding-right: 2%;
+    }
 }
