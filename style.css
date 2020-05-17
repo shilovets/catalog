@@ -30,6 +30,7 @@ header {
 .nav {
     width: 33.33%;
     height: 100%;
+    font-size: 12px;
     display: flex;
     padding: 0px 40px;
     flex-direction: row;
