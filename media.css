@@ -11,10 +11,10 @@
     }
 }
 @media screen and (max-width: 1024px) {
-    .nav {
-        opacity: 0;
+    .nav a {
+        display: none;
     }
-    .electronics, .computers, .appliances, .repairs, .house, .auto {
-        padding-right: 2%;
+    .electronics__image, .computers__image, .appliances__image, .repairs__image, .house__image, .auto__image {
+        display: none;
     }
 }
