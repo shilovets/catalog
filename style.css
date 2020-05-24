@@ -14,23 +14,22 @@ body {
     /* background-size: 100%; */
 }
 /* Background */
-/*background slider*/
-.body_slides{
+.slides{
     list-style:none;
     margin:0;
     padding:0;
     z-index:-2;
     background:#000;
 }
-.body_slides,
-.body_slides:after{
+.slides,
+.slides:after{
     position: fixed;
     width:100%;
     height:100%;
     top:0px;
     left:0px;
 }
-.body_slides li{
+.slides li{
     width:100%;
     height:100%;
     position:absolute;
@@ -41,14 +40,14 @@ body {
     opacity:0;
     animation: anim_slides 18s linear infinite 0s;
 }
-.body_slides li:nth-child(1){
+.slides li:nth-child(1){
     background-image: url(img/background1.jpg)
 }
-.body_slides li:nth-child(2){
+.slides li:nth-child(2){
     animation-delay: 6.0s;
-    background-image: url(img/background2.png)
+    background-image: url(img/background2.jpg)
 }
-.body_slides li:nth-child(3){
+.slides li:nth-child(3){
     animation-delay: 12.0s;
     background-image: url(img/background3.jpg)
 }
