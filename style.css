@@ -397,7 +397,7 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
     height: 25%;
-    
+    width: 100%;
 }
 footer p {
     font-size: 14px;
