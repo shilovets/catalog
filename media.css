@@ -44,8 +44,9 @@
         background-color: white;
         height: 107px;
     }
-    .list__first, .list__second {
+    .text__first, .text__second {
         opacity: 1;
+        margin: 20px;
     }
     .list__header {
         margin-bottom: 0;
@@ -53,9 +54,17 @@
     .electronics:hover .list__header, .computers:hover .list__header, .appliances:hover .list__header, .repairs:hover .list__header, .house:hover .list__header, .auto:hover .list__header {
         margin-bottom: 0;
     }
-    .electronics__list, .computers__list, .appliances__list, .repairs__list, .house__list, .auto__list {
+    .list__text {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
+    }
+    .auto__list .list__header {
+        margin-bottom: 20px;
+    }
+    .goTop {
+        padding: 20px;
+        background-color: white;
+        opacity: 1;
     }
 }

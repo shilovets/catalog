@@ -6,11 +6,15 @@
     font-style: normal;
     text-decoration: none;
 }
+html {
+    width: 100vw;
+    height: 100vh;
+}
 body {
     /* background-image: url("img/background.png");
     background-repeat: no-repeat; */
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     /* background-size: 100%; */
 }
 /* Background */
@@ -138,18 +142,18 @@ main {
 .list__header:hover{
     cursor: pointer;
 }
-.list__first, .list__second {
+.text__first, .text__second {
     font-size: 13px;
     transition-property: opacity;
     transition-duration: 0.3s;
     opacity: 0;
     border-bottom: transparent 1px solid;
 }
-.list__first:hover, .list__second:hover {
+.text__first:hover, .text__second:hover {
     cursor: pointer;
     border-bottom: white 1px solid;
 }
-.list__first {
+.text__first {
     margin-bottom: 15px;
 }
 /* First line */
@@ -180,13 +184,13 @@ main {
     width: 120px;
     height: 120px;
 }
-.electronics .list__first, .electronics .list__second {
+.electronics .text__first, .electronics .text__second {
     width: 70px;
 }
 .electronics:hover .electronics__image {
     opacity: 1;
 }
-.electronics:hover .list__first, .electronics:hover .list__second {
+.electronics:hover .text__first, .electronics:hover .text__second {
     opacity: 1;
 }
 .electronics:hover .list__header {
@@ -216,16 +220,16 @@ main {
     width: 120px;
     height: 120px;
 }
-.computers .list__first {
+.computers .text__first {
     width: 35px;
 }
-.computers .list__second {
+.computers .text__second {
     width: 17px;
 }
 .computers:hover .computers__image {
     opacity: 1;
 }
-.computers:hover .list__first, .computers:hover .list__second {
+.computers:hover .text__first, .computers:hover .text__second {
     opacity: 1;
 }
 .computers:hover .list__header {
@@ -255,13 +259,13 @@ main {
     width: 120px;
     height: 120px;
 }
-.appliances .list__first {
+.appliances .text__first {
     width: 63px;
 }
 .appliances:hover .appliances__image {
     opacity: 1;
 }
-.appliances:hover .list__first, .appliances:hover .list__second {
+.appliances:hover .text__first, .appliances:hover .text__second {
     opacity: 1;
 }
 .appliances:hover .list__header {
@@ -298,13 +302,13 @@ main {
     width: 120px;
     height: 120px;
 }
-.repairs .list__first {
+.repairs .text__first {
     width: 46px;
 }
 .repairs:hover .repairs__image {
     opacity: 1;
 }
-.repairs:hover .list__first, .repairs:hover .list__second {
+.repairs:hover .text__first, .repairs:hover .text__second {
     opacity: 1;
 }
 .repairs:hover .list__header {
@@ -334,16 +338,16 @@ main {
     width: 120px;
     height: 120px;
 }
-.house .list__first {
+.house .text__first {
     width: 47px;
 }
-.house .list__second {
+.house .text__second {
     width: 45px;
 }
 .house:hover .house__image {
     opacity: 1;
 }
-.house:hover .list__first, .house:hover .list__second {
+.house:hover .text__first, .house:hover .text__second {
     opacity: 1;
 }
 .house:hover .list__header {
@@ -373,16 +377,16 @@ main {
     width: 120px;
     height: 120px;
 }
-.auto .list__first {
+.auto .text__first {
     width: 47px;
 }
-.auto .list__second {
+.auto .text__second {
     width: 45px;
 }
 .auto:hover .auto__image {
     opacity: 1;
 }
-.auto:hover .list__first, .auto:hover .list__second {
+.auto:hover .text__first, .auto:hover .text__second {
     opacity: 1;
 }
 /* .auto:hover .list__header {
@@ -390,6 +394,9 @@ main {
 } */
 .auto:hover {
     background-color: #F44242;
+}
+.goTop {
+    opacity: 0;
 }
 /* Footer */
 footer {
