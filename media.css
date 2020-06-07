@@ -67,4 +67,29 @@
         background-color: white;
         opacity: 1;
     }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo, .nav, .searching {
+        border: none;
+        width: 100%;
+    }
+    .searching {
+        order: -1;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .nav {
+        opacity: 0;
+    }
+    .searching__menu {
+        order: -1;
+    }
 }
