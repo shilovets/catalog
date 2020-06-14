@@ -66,9 +66,16 @@
         padding: 20px;
         background-color: white;
         opacity: 1;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+    .goTop p {
+        color: black;
     }
     header {
         display: flex;
+        height: 232px;
         flex-direction: column;
     }
     .logo, .nav, .searching {

@@ -411,8 +411,16 @@ footer p {
     margin: 30px 25px;
 }
 footer div {
+    display: flex;
+    align-items: flex-end;
     width: 33.33%;
     height: 100%;
     border: 1px rgb(153, 153, 153) solid;
     box-sizing: border-box;
+}
+.site {
+    justify-content: flex-end;
+}
+.catalog {
+    justify-content: flex-start;
 }
